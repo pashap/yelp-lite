@@ -4,9 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This react application queries the yelp-fusion API, using the given browsers' geolocation, and displays local businesses to the user.
 
+Due to the fact that the Yelp API does not support CORS, we must run a [cors-anywhere](https://github.com/Rob--W/cors-anywhere) server that proxies our Yelp requests.
+
 In order to run the application, the following variables need to be set within the `.env` file:
  - `REACT_APP_YELP_API_KEY` 
  - `REACT_APP_YELP_BUSINESS_URL`
+ - `REACT_APP_CORS_API_URL`
 
 
 ## Available Scripts

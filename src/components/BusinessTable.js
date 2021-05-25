@@ -3,6 +3,7 @@ import Business from "./Business";
 
 const YELP_API_KEY = process.env.REACT_APP_YELP_API_KEY;
 const YELP_BUSINESS_URL = process.env.REACT_APP_YELP_BUSINESS_URL;
+const CORS_API_URL = process.env.REACT_APP_CORS_API_URL;
 
 
 const BusinessTable = (props) => {
@@ -13,6 +14,7 @@ const BusinessTable = (props) => {
     console.log(geoloc);
     console.log(YELP_API_KEY);
     console.log(YELP_BUSINESS_URL);
+    console.log(CORS_API_URL);
 
     return (
         <div className="App">
