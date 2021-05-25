@@ -14,6 +14,8 @@ In order to run the application, the following variables need to be set within t
 
 ## Available Scripts
 
+After cloning this repo, you will need to run `yarn install` in order to install the required packages before running.
+
 In the project directory, you can run:
 
 ### `yarn start`
