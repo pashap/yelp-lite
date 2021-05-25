@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Yelp Lite
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This react application queries the yelp-fusion API, using the given browsers' geolocation, and displays local businesses to the user.
+
+In order to run the application, the following variables need to be set within the `.env` file:
+ - `REACT_APP_YELP_API_KEY` 
+ - `REACT_APP_YELP_BUSINESS_URL`
+
 
 ## Available Scripts
 
